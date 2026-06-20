@@ -14,7 +14,7 @@ export const Route = createFileRoute("/donate")({
       { property: "og:description", content: "100% of community donations go directly to our SDG programs." },
     ],
   }),
-  component: Donate;
+  component: Donate,
 });
 
 const presets = [25, 50, 100, 250];
