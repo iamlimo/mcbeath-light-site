@@ -100,7 +100,7 @@ function Contact() {
                 />
                 <button
                   type="submit"
-                  className="mt-6 w-full rounded-full bg-primary px-6 py-4 text-base font-medium text-primary-foreground hover:-translate-y-0.5 transition-transform"
+                  className="mt-6 w-full rounded-full bg-accent px-6 py-4 text-base font-medium text-accent-foreground hover:-translate-y-0.5 transition-transform"
                 >
                   Send message
                 </button>

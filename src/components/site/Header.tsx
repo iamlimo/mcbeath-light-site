@@ -60,7 +60,7 @@ export function Header() {
         <div className="hidden md:block">
           <Link
             to="/donate"
-            className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground shadow-sm transition-all hover:bg-primary/90 hover:-translate-y-0.5 hover:shadow-md"
+            className="inline-flex items-center gap-2 rounded-full bg-accent px-5 py-2.5 text-sm font-medium text-accent-foreground shadow-sm transition-all hover:bg-accent/90 hover:-translate-y-0.5 hover:shadow-md"
           >
             Donate
             <Heart className="h-3.5 w-3.5" fill="currentColor" />
@@ -92,7 +92,7 @@ export function Header() {
             <Link
               to="/donate"
               onClick={() => setOpen(false)}
-              className="mt-2 inline-flex items-center justify-center rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground"
+              className="mt-2 inline-flex items-center justify-center rounded-full bg-accent px-5 py-2.5 text-sm font-medium text-accent-foreground"
             >
               Donate
             </Link>

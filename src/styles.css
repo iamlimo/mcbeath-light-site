@@ -35,42 +35,34 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
   --color-ring-offset-background: var(--background);
-  --color-ink: var(--ink);
-  --color-cream: var(--cream);
-  --color-clay: var(--clay);
-  --color-sage: var(--sage);
-  --color-ember: var(--ember);
+
+  --color-teal: #008080;
+  --color-mint: #2ecc71;
+  --color-deep-purple: #3a225d;
 }
 
 :root {
   --radius: 0.75rem;
 
-  /* Warm dignified palette: cream, ink, terracotta, sage, ember */
-  --cream: oklch(0.97 0.018 75);
-  --ink: oklch(0.20 0.025 50);
-  --clay: oklch(0.62 0.14 40);    /* terracotta */
-  --sage: oklch(0.58 0.07 145);   /* sage green */
-  --ember: oklch(0.70 0.17 55);   /* warm ember accent */
-
-  --background: var(--cream);
-  --foreground: var(--ink);
-  --card: oklch(1 0 0);
-  --card-foreground: var(--ink);
-  --popover: oklch(1 0 0);
-  --popover-foreground: var(--ink);
-  --primary: var(--clay);
-  --primary-foreground: oklch(0.985 0.005 75);
-  --secondary: oklch(0.92 0.02 75);
-  --secondary-foreground: var(--ink);
-  --muted: oklch(0.94 0.012 75);
-  --muted-foreground: oklch(0.48 0.025 60);
-  --accent: var(--sage);
-  --accent-foreground: oklch(0.985 0.005 75);
+  --background: #f8f9fa;
+  --foreground: #3a225d;
+  --card: #ffffff;
+  --card-foreground: #3a225d;
+  --popover: #ffffff;
+  --popover-foreground: #3a225d;
+  --primary: #008080;
+  --primary-foreground: #ffffff;
+  --secondary: #e6f4f4;
+  --secondary-foreground: #3a225d;
+  --muted: #f0edf5;
+  --muted-foreground: #7a6a8d;
+  --accent: #2ecc71;
+  --accent-foreground: #ffffff;
   --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.985 0.005 75);
-  --border: oklch(0.88 0.018 70);
-  --input: oklch(0.88 0.018 70);
-  --ring: var(--clay);
+  --destructive-foreground: #ffffff;
+  --border: #ddd8e5;
+  --input: #ddd8e5;
+  --ring: #008080;
 }
 
 @layer base {

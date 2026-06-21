@@ -29,7 +29,7 @@ const pillars = [
     title: "No Poverty",
     desc: "Microgrants, vocational training, and small-business support that helps families build stable, dignified livelihoods.",
     image: povertyImg,
-    tint: "from-clay/20",
+    tint: "from-teal/20",
   },
   {
     icon: Sprout,
@@ -37,7 +37,7 @@ const pillars = [
     title: "Zero Hunger",
     desc: "Community kitchens, food parcels, and smallholder farming programs that put nutritious meals on every table.",
     image: hungerImg,
-    tint: "from-sage/25",
+    tint: "from-mint/25",
   },
   {
     icon: BookOpen,
@@ -45,7 +45,7 @@ const pillars = [
     title: "Quality Education",
     desc: "Scholarships, school supplies, and learning hubs so every child can read, dream, and finish school.",
     image: educationImg,
-    tint: "from-ember/20",
+    tint: "from-deep-purple/20",
   },
   {
     icon: HeartPulse,
@@ -53,7 +53,7 @@ const pillars = [
     title: "Good Health & Well-being",
     desc: "Mobile clinics, maternal care, and mental-health outreach that protects every life from preventable harm.",
     image: healthImg,
-    tint: "from-clay/20",
+    tint: "from-teal/20",
   },
 ];
 
