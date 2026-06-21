@@ -61,7 +61,7 @@ function Donate() {
                 <button
                   type="button"
                   onClick={() => setSubmitted(false)}
-                  className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground"
+                  className="mt-6 inline-flex items-center gap-2 rounded-full bg-accent px-5 py-2.5 text-sm font-medium text-accent-foreground"
                 >
                   Give again
                 </button>
@@ -121,7 +121,7 @@ function Donate() {
 
                 <button
                   type="submit"
-                  className="mt-6 w-full inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-4 text-base font-medium text-primary-foreground shadow-sm hover:-translate-y-0.5 transition-transform"
+                  className="mt-6 w-full inline-flex items-center justify-center gap-2 rounded-full bg-accent px-6 py-4 text-base font-medium text-accent-foreground shadow-sm hover:-translate-y-0.5 transition-transform"
                 >
                   <Heart className="h-4 w-4" fill="currentColor" />
                   Donate ${amount || 0} {freq === "Monthly" ? "/ month" : ""}

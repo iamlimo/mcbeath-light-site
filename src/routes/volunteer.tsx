@@ -110,7 +110,7 @@ function Volunteer() {
                       onClick={() => toggle(i)}
                       className={`rounded-full border px-4 py-2 text-sm transition-colors ${
                         picked.includes(i)
-                          ? "bg-primary border-primary text-primary-foreground"
+                          ? "bg-accent border-accent text-accent-foreground"
                           : "border-border hover:border-foreground/40"
                       }`}
                     >
@@ -127,7 +127,7 @@ function Volunteer() {
 
                 <button
                   type="submit"
-                  className="mt-6 w-full rounded-full bg-primary px-6 py-4 text-base font-medium text-primary-foreground hover:-translate-y-0.5 transition-transform"
+                  className="mt-6 w-full rounded-full bg-accent px-6 py-4 text-base font-medium text-accent-foreground hover:-translate-y-0.5 transition-transform"
                 >
                   Submit application
                 </button>
